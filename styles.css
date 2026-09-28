@@ -209,8 +209,6 @@ p { margin: 0; text-wrap: pretty; }
 .card .link-underline { display: inline-block; margin-top: 14px; }
 /* For a card with more than one destination: a live demo alongside its source. */
 .card-links { display: flex; gap: 24px; flex-wrap: wrap; }
-/* The wide card has room for a longer description than a single-column one. */
-.card-wide .card-copy { max-width: 66ch; }
 
 /* ---------- about ---------- */
 .split { max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 72px; align-items: start; }
